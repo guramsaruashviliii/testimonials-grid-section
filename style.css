@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vw;
+  padding: 71px 24px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #ecf2f8;
+}
+
+.card {
+  width: 100%;
+  margin-bottom: 24px;
+  background-color: blueviolet;
+  border-radius: 8px;
+  padding: 26px 32px 32px 32px;
+}
+.card__bg__img {
+  background: #733fc8;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-size: 104px 102px;
+  background-position: right 24px top;
+}
+.daniels__img {
+  border: 2px solid #a775f1;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-bottom: 18px;
+}
+.name {
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 500;
+}
+.Verified__graduate {
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 500;
+  color: #ffffff;
+  opacity: 50%;
+}
+
+.experience {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.daniels__experience {
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.story {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.daniels__story {
+  color: #cfcfcf;
+  opacity: 70%;
+}
+.card__bg__black {
+  background: #48556a;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+}
+.icone {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+}
+.Jonathans__experience {
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.Jonathans__story {
+  color: #ffffff;
+  opacity: 70%;
+}
+.Jeanettes__card {
+  background: #ffffff;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+}
+.Jeanettes__experience {
+  color: #48556a;
+  margin-bottom: 16px;
+}
+.Jeanettes__story {
+  color: #48556a;
+  opacity: 70%;
+}
+.Jeanettes__name {
+  color: #48556a;
+}
+.Jeanette {
+  color: #48556a;
+  opacity: 50%;
+}
+
+.Patricks__card {
+  background: #19202d;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+}
+.Patricks__experience {
+  color: #ecf2f8;
+  margin-bottom: 16px;
+}
+
+.Patricks__story {
+  color: #ffffff;
+  opacity: 70%;
+}
+
+.Kiras__card {
+  background: #ffffff;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+}
+
+.Kiras__experience {
+  color: #48556a;
+  margin-bottom: 16px;
+}
+.Kiras__story {
+  color: #48556a;
+  opacity: 70%;
+}
+.kiras__name {
+  color: #48556a;
+}
+.kira {
+  color: #48556a;
+  opacity: 50%;
+}
+
+@media (min-width: 1440px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cards {
+    max-width: 1440px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    row-gap: 24px;
+  }
+  .card__bg__img {
+    width: 540px;
+    grid-column: 1/3;
+    height: 282px;
+    margin-bottom: 0;
+  }
+  .Kiras__card {
+    width: 255px;
+    height: 572px;
+    grid-column: 4;
+    grid-row: 1/3;
+  }
+  .Patricks__card {
+    grid-column: 2/4;
+    width: 540px;
+    height: 266px;
+  }
+  .Jeanettes__card {
+    width: 255px;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    height: 266px;
+  }
+  .card__bg__black {
+    width: 255px;
+    grid-column: 3;
+    height: 282px;
+    margin-bottom: 0;
+  }
+}
